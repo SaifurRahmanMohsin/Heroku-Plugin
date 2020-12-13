@@ -1,0 +1,19 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    challenges:
+        label: Challenges
+        type: repeater
+        form:
+            fields:
+                slug:
+                    label: Challenge Slug
+                    type: text
+                    span: left
+
+                key:
+                    label: Challenge Key
+                    type: sensitive
+                    span: right
